@@ -9,8 +9,9 @@
 ![Alt text](imgs/image.png)
 Note: THe ses provider is not in production, so cannot send emails to not verified user.
 
-3) Google Calender API registered and credential created.
+3) Google Calender API registered and credential created. Able to create events without meet link(possible misconfiguratuion with conferenceData -> trying to figure it out)
 
+![Alt text](imgs/image4.png)
 
 
 ## Problems to Tackle
