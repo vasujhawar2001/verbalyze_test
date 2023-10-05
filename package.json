@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/client-ses": "^3.425.0",
-    "dotenv": "^16.3.1"
+    "@google-cloud/local-auth": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "googleapis": "^126.0.1"
   }
 }

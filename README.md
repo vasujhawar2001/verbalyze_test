@@ -7,6 +7,7 @@
 2) AWS SES client registration and implementation completed. Tested, and able to send emails through ses client on nodejs. 
 ![Alt text](imgs/image2.png)
 ![Alt text](imgs/image.png)
+Note: THe ses provider is not in production, so cannot send emails to not verified user.
 
 3) Google Calender API registered and credential created.
 
@@ -17,6 +18,9 @@
 1) MongoDB Sticth has been DEPRECEATED. Cannot add any third-party services and cannot use it in trigger functions. Possible soultion to write your HTTP endpoint (trying to figure it out).
 
 2) Google API authentication and authorisation to perform actions like creating and event and adding to calender (Google DOCS are worst)
+ 
+![Alt text](imgs/image3.png)
+Note : possible solution - https://stackoverflow.com/questions/60760959/google-calendar-api-service-account-error
 
 ## Need More Clearity to Problem Statement
 
