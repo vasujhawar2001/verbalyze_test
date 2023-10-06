@@ -24,6 +24,11 @@ Note: THe ses provider is not in production, so cannot send emails to not verifi
 ![Alt text](imgs/image3.png)
 Note : possible solution - https://stackoverflow.com/questions/60760959/google-calendar-api-service-account-error
 
+3) Domain Wide Delegation reequired to add attendees and add conference details.
+- https://github.com/googleapis/google-api-nodejs-client/issues/3052
+- https://github.com/googleapis/google-api-nodejs-client/issues/3234
+
+
 ## Need More Clearity to Problem Statement
 
 1) What I have understood from the given problem is, we are given a database, and whenever there is new entry or any update(insert/update/delete operation on the database) we have to trigger an email notifictaion to relevant users.

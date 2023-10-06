@@ -27,6 +27,7 @@ const auth = new google.auth.GoogleAuth({
   }); 
 
 const calendarId = GOOGLE_CALENDAR_ID;
+const gst = "+5:30";
 const resource = {
   start: { dateTime: "2023-10-07T11:30:00.000+05:30" },
   end: { dateTime: "2023-10-07T12:30:00.000+05:30" },
@@ -54,6 +55,7 @@ auth.getClient().then(a=>{
       auth:a, 
       calendarId: "dd1bc78a76621664839381f659513cdbd42f871b85ad9de99640f6b8be15c919@group.calendar.google.com", 
       resource: resource,
+      // conferenceDataVersion: 1, // not able to add conference data
     }, function(err, event) { 
       if (err) { 
         console.log('There was an error contacting the Calendar service: ' + err); 

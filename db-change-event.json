@@ -1,0 +1,20 @@
+// insert event
+{
+   "_id": { <Resume Token> },
+   "operationType": "insert",
+   "clusterTime": <Timestamp>,
+   "wallTime": <ISODate>,
+   "ns": {
+      "db": "engineering",
+      "coll": "users"
+   },
+   "documentKey": {
+      "userName": "alice123",
+      "_id": ObjectId("599af247bb69cd89961c986d")
+   },
+   "fullDocument": {
+      "_id": ObjectId("599af247bb69cd89961c986d"),
+      "userName": "alice123",
+      "name": "Alice"
+   }
+}
